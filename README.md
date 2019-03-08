@@ -30,3 +30,6 @@ In the business context we understood that we don't want the prediction to be 0 
     > We will also use binary confusion matrix because we can compute TPR, FPR etc., it gives us a lot more info about what kind of error are occuring.
     
     
+#### Splitting the data into train and test
+We know that this is a binary classification problem, how sould we split the data for training and then testing.
+> The answer is, since we have sufficient amount of data points(~400K), we don't have to worry about the scarcity of data points for any of the purposes. We can do random split in 70:30 or 80:20 train:test ratio. 
